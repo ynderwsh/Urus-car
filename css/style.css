@@ -133,13 +133,65 @@ button{
 
 .info__content{
     display: flex;
+    margin-bottom: 170px;
+    padding-left: 155px;
+    padding-right: 100px;
+    gap: 94px;
 }
 
 .info__list{
     column-count: 2;
+    gap: 140px;
 }
 
 .info__list dt,
 .info__list dd{
     display: inline-block;
+}
+
+.info__list-line{
+    padding-bottom: 22px;
+}
+
+.price{
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+
+.order{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    font-size: 24px;
+    padding: 30px 60px;
+    background: linear-gradient(181.77deg, #ff5017 2.24%, #ff6837 99.25%); 
+}
+
+.info__gallary{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.info__gallary img{
+    max-width: 100%;
+}
+
+
+.color__gallary{
+    background-color: #f8f8f8;
+}
+
+.color__text{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 160px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.color__gallary{
+    background-color: #f8f8f8;
 }
