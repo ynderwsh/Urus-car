@@ -8,6 +8,14 @@ html{
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 34px;
+}
+
 *,
 *::after,
 *::before{
@@ -70,16 +78,68 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    height: calc(100vh - 135px);
 }
 
 .title{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
     font-size: 345px;
-    line-height: 418px;
-
     background: linear-gradient(180deg, #000 0%, #830b02 100%);
-    -webkit-background-clip: text ;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color:transparent;
+    padding-left: 150px;
+    line-height: 0.8;
+}
+
+.subtitle{
+    font-size: 160px;
+    background: linear-gradient(90deg, #ff5017 0%, #000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    align-self: flex-end;
+    padding-right: 75px;
+    padding-bottom: 50px;
+}
+
+.header__images{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    margin:auto;
+}
+
+.info{
+    background-color: #f8f8f8;
+    padding: 170px 0;
+}
+
+.info__title{
+    text-align: center;
+    line-height: 0.8;
+    font-size: 160px;
+    text-transform: uppercase;
+}
+
+.info__img{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.info__content{
+    display: flex;
+}
+
+.info__list{
+    column-count: 2;
+}
+
+.info__list dt,
+.info__list dd{
+    display: inline-block;
 }
