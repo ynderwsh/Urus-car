@@ -112,7 +112,7 @@ button{
     top: 25px;
     bottom: 0;
     margin:auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 .info{
@@ -174,6 +174,7 @@ display: flex;
     align-items: center;
     gap: 20px;
     border-radius: 20px;
+    flex-wrap: wrap;
 }
 
 .info__gallary img{
@@ -325,7 +326,77 @@ display: flex;
 }
 
 
-/*@media (max-width:1200px){
+
+
+
+
+
+
+
+@media (max-width:1820px){
+    .title{
+    font-size: 280px;
+    padding-left: 0px;
+    }
+
+    .subtitle{
+        font-size: 140px;
+        padding-right: 0;
+    }
+    .info__gallary{
+        gap: 24px 20px;
+    }
+
+    .info__gallary img{
+        width: 48%;
+    }
+    .info__car{
+        width: 100%;
+    }
+    .header{
+        background-color: #ff6e3e;
+        background-image: none;
+    }
+
+    
+    .gallary-box{
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    .gallary-box__item{
+        width: 48%;
+    }
+    .gallary-box img{
+        width: 100%;
+        border-radius: 35px;
+    }
+    .contacts__box{
+        min-width: 100vh;
+    }
+    .footer{
+        min-width: 100vh;
+    }
+
+}
+
+
+@media (max-width:1700px){
+    .contacts__box{
+        padding: 100px;
+    }
+}
+
+
+
+@media (max-width:1820px){
+    .info__content{
+        display:block;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:1200px){
     .title{
     font-size: 280px;
     padding-left: 0px;
@@ -339,7 +410,87 @@ display: flex;
     .header__images{
         top: 0;
     }
+    
+    .info{
+        padding: 100px 0;
+    }
+
+    .info__title{
+        font-size: 86px;
+    }
+
+    .info__content{
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 100px;
+        gap: 20px;
+    }
+    .color__text{
+        font-size: 80px; 
+    }
+
+    .gallary-box{
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    .gallary-box__item{
+        width: 48%;
+    }
+    .gallary-box img{
+        width: 100%;
+        border-radius: 35px;
+    }
+
+  
+
+    .contacts__info{
+        font-size: 15px;
+    }
+    .form__order button{
+        width: 50%;
+    }
+    
+    .color{
+        min-width: 100vh;
+    }
+
+    .contacts{
+        min-width: 100vh;
+    }
 }
+
+
+
+@media (max-width: 1020px){
+
+    .info__gallary img{
+        width: 100%;
+    }
+
+    .info__list{
+        gap: 20px;
+    }
+
+    .info__content{
+        display:block;
+        margin-bottom: 50px;
+    }
+
+    .color__text{
+        font-size: 50px; 
+    }
+
+    .gallary-box__text{
+        font-size: 35px; 
+    }
+
+    .container{
+        padding: 0;
+    }
+
+}
+
 
 
 
@@ -356,8 +507,62 @@ display: flex;
 
     .menu__btn span{
         box-sizing: content-box;
-        border: solid 1px #000 ;
+        border: 1px solid #000 ;
+    }
+    .container{
+        min-width: 100vh;
+    }
+    .contacts__box{
+        display: block;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .contacts__text-rules{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contacts__headtext{
+        font-size: 15px;
+    }
+
+    .contacts__text{
+        font-size: 15px;
+    }
+
+    .form__input{
+        font-size: 15px;
+    }
+
+    .form__input::placeholder{
+        font-size: 15px;
+    }
+    .price__order{
+        font-size: 30px;
+    }
+
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
 
+
+
+@media (max-width:520px){
+    .title{
+        font-size: 122px;
+    }
+    .subtitle{
+        font-size: 70px;
+    }
+
+    .contacts__title{
+        font-size: 20px;
+    }
+
+    .contacts{
+        padding: 50px 0;
+    }
+}
